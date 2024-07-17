@@ -1,0 +1,20 @@
+# You can have multiple [[atlas]] section in one file.
+[[atlas]]
+
+# The filename of the output files.
+name = "sprites"
+
+# The output folder.
+saveFolder = "public/assets"
+
+# Input folders
+folders = ["images"]
+
+## Trim transparent pixels to make a smaller altas.
+trimmed = true 
+
+# The amount of pixels to extrude the border.
+extrude = 1
+
+# basic or optimal.
+packMethod = "optimal"
