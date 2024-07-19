@@ -1,8 +1,17 @@
 # Jume Atlas Packer
+Generate sprite atlases from separate images for better performance when rendering.  
+
 The Jume Game Engine can load atlases created by this tool.
+
+## Installation
+`npm install @jume-labs/jume-atlas`
 
 ## How to use Jume Atlas
 This tool uses a `toml` config file to generate an image atlas. You can run the executable directly inside a folder with a `atlas.toml` file without any arguments or provide a .toml file as an argument.
+
+### Commands
+`npx jume-atlas init` Add a basic atlas.toml file to the current directory.  
+`npx jume-atlas pack` Create the the atlas(es) based on the config file.
 
 ## The toml schema
 The atlas config file can contain multiple configurations so you can generate multiple atlases at the same time.
