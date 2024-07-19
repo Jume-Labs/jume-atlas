@@ -12,7 +12,7 @@ describe('Packer', () => {
     config = {
       name: 'test',
       saveFolder: 'out',
-      folders: ['testFiless'],
+      folders: ['testFiles'],
       extrude: 0,
       trimmed: true,
     };
