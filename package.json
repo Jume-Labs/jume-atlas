@@ -14,11 +14,12 @@
     "prepare": "tsc -p tsconfig.build.json",
     "build": "tsc -p tsconfig.build.json",
     "lint": "eslint src",
+    "prettier": "prettier src --check",
     "test": "vitest run"
   },
   "type": "module",
   "keywords": [],
-  "author": "",
+  "author": "Codescapade",
   "license": "MIT",
   "devDependencies": {
     "@jume-labs/eslint-config": "^1.0.0",
