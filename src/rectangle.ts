@@ -39,7 +39,7 @@ export class Rectangle {
     this.y = y;
     this.width = width;
     this.height = height;
-    // this.name = name;
+    this.name = name;
   }
 
   /**
