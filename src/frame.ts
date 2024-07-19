@@ -75,7 +75,7 @@ export type Frame = {
     /**
      * The untrimmed sprite width in pixels.
      */
-          w: number;
+    w: number;
 
     /**
      * The untrimmed sprite height in pixels.
