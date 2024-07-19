@@ -1,5 +1,6 @@
 import fs from 'fs';
 import { PNG } from 'pngjs';
+
 import { Color } from './color.js';
 
 /**
